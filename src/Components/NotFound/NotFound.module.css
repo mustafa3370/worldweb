@@ -1,7 +1,7 @@
 .containe{
     height: 100vh;
     overflow: hidden;
-    background-image: url(../../photos/Home2.png);
+    background-image: url(../../photos/Error.png);
     box-shadow: rgba(0, 0, 0,0.5);
     background-blend-mode: multiply;
     background-position: center;
