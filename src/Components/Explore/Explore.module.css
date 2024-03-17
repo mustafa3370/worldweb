@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+.Explore{
+    padding-top: 20px;
+    background-color: black;
+}
+.Text{
+    color: white;
+}
+.p{
+   margin: 2px 50px;
+   color: rgb(121, 121, 121) !important;
+}
+.padding{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.photo{
+    width:100%;
+    position: relative;
+    border-radius: 5px;
+}
+.Phototext{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(236, 234, 236);
+    z-index: 2;
+    font-family: "Merienda", cursive;
+  
+}
+.Phototext h6{
+    font-size: 10px;
+    font-weight: 700;
+}
+.Gradient{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+}
+.seeMore{
+    text-align: center;
+    color: rgba(96, 31, 202, 0.644);
+    font-family: "Merienda", cursive;
+    font-size: 2px;
+}
+@media(max-width:425px){
+    .p{
+    margin: 0px;
+    }
+  }
