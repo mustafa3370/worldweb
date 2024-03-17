@@ -4,8 +4,8 @@ import Layout from './Components/Layout/Layout';
 import Home from './Components/Home/Home';
 import NotFound from './Components/NotFound/NotFound';
 const Router= createBrowserRouter([
-  {path:'/',element:<Layout/>,children:[
-    {path:" ",element:<Home/>},
+  {path:'',element:<Layout/>,children:[
+    {path:"/",element:<Home/>},
     {path:"home",element:<Home/>},
     {path:"*",element:<NotFound/>},
   ]}
