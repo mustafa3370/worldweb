@@ -3,7 +3,6 @@ function NotFound() {
     return <>
     <div className={NotFoundstyle.containe}>
     </div>
-   
     </>
 }
 
