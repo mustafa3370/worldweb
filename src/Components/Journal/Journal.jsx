@@ -1,6 +1,7 @@
 import journalstyle from './Journal.module.css'
+import Footer from './../Footer/Footer';
 function Journal() {
-    return (
+    return <>
        <section className={journalstyle.journal}>
            <div className={journalstyle.title}>The Journal</div>
            <div className={journalstyle.text}><p>
@@ -49,7 +50,8 @@ function Journal() {
                </div>
            </div>
        </section>
-    )
+       <Footer/>
+    </>
 }
 
 export default Journal
